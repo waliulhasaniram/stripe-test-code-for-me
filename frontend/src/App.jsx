@@ -3,14 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
-import StripeCheckout from "react-stripe-checkout";
+import CheckoutForm from "./CheckoutForm";
 
 function App() {
-  // const [product, setProduct] = useState({
-  //   name: "T-shirt",
-  //   price: 20,
-  //   productBy: "facebook",
-  // });
+
 
   return (
     <>
@@ -22,10 +18,8 @@ function App() {
         </div>
         <div>
           <h1>Stripe payment</h1>
+          <CheckoutForm />
         </div>
-        <StripeCheckout stripeKey="" token="" name="by react">
-            <button className="btn">Buy now</button>
-        </StripeCheckout>
       </section>
 
       <div className="ticks"></div>

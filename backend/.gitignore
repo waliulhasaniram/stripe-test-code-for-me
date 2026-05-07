@@ -1,0 +1,19 @@
+node_modules
+dist*
+build*
+
+.env*
+!.env.example
+
+.DS_Store/
+.idea/
+
+# Logs
+logs*
+uploads*
+
+.DS_Store
+*.pem
+
+.wwebjs_auth
+.wwebjs_cache
